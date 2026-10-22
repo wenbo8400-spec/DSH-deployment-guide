@@ -89,7 +89,6 @@ dsh web --no-open
 - **原因**：无全局写入权限。
 - **解决**：使用 `sudo npm install`，或修改 npm 默认的全局路径。
 
-### 2. 报错 `Error: Cannot find module 'node-pty'`
+### 2. 打开链接但长时间无响应
 
-- **原因**：npm 默认阻止了构建脚本的运行。
-- **解决**：使用 `--allow-scripts` 参数重新安装，并执行 `npm rebuild -g`。
+- **解决**：检查网络问题、更换代理。
