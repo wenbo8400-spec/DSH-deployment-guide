@@ -88,8 +88,3 @@ dsh web --no-open
 
 - **Cause**: No write permission for global directories.
 - **Fix**: Use `sudo npm install`, or change npm's default global prefix.
-
-### 2. Error `Error: Cannot find module 'node-pty'`
-
-- **Cause**: npm blocked build scripts by default.
-- **Fix**: Reinstall using the `--allow-scripts` flag and run `npm rebuild -g`.
